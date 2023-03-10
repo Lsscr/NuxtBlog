@@ -8,6 +8,14 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "^3.2.3"
+    "@huntersofbook/naive-ui-nuxt": "^0.7.1",
+    "@nuxtjs/tailwindcss": "^6.4.1",
+    "nuxt": "^3.2.3",
+    "sass": "^1.58.3"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "remark": "^14.0.2",
+    "remark-html": "^15.0.2"
   }
 }
