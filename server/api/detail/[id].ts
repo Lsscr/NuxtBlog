@@ -5,7 +5,7 @@ import { remark } from "remark";
 import html from "remark-html";
 
 // 文章目录
-const postsDir = path.join(process.cwd(), "content");
+const postsDir = path.join(process.cwd(), "public", "content");
 
 export default defineEventHandler(async (event) => {
   const fileName = getRouterParam(event, "id") + ".md";

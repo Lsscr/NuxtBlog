@@ -3,7 +3,7 @@ import path from "path";
 import matter from "gray-matter";
 
 // 文章目录
-const postsDir = path.join(process.cwd(), "content");
+const postsDir = path.join(process.cwd(), "public", "content");
 
 export default defineEventHandler((event) => {
   const fileNames = fs.readdirSync(postsDir);
